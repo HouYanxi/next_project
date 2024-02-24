@@ -1,3 +1,9 @@
+/*
+ * @Author: Miss.Hyx
+ * @Date: 2024-02-22 18:05:51
+ * @LastEditTime: 2024-02-23 08:09:33
+ * @Description: 
+ */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [

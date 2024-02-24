@@ -18,16 +18,45 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background: black;
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: 'NeueMachina';
+  src: url(../public/fonts/neuemachina-regular.otf);
+}
+@font-face {
+  font-family: 'NEXTBook';
+  src: url(../public/fonts/NEXT-Book-Regular.otf);
+}
+
+@layer components {
+  .slide-crard {
+    transform: translatex(-120%);
+    transition: all 3s linear;
+  }
+  .slide-crard-right {
+    transform: translatex(0%);
+    transition: all 3s linear;
+  }
+  .right-slide-end {
+    background: #303030;
+    opacity: 40%;
+    pointer-events: none;
+  }
+  #left-btn {
+    visibility: hidden;
   }
 }
