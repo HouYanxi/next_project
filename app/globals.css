@@ -60,3 +60,15 @@ body {
     visibility: hidden;
   }
 }
+
+@media (min-width: 640px) and (max-width: 1280px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-width: 375px) and (max-width: 639px) {
+  html {
+    font-size: 14px;
+  }
+}
+
