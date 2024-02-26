@@ -61,14 +61,15 @@ body {
   }
 }
 
-@media (min-width: 640px) and (max-width: 1280px) {
+/* 1600以上，默认1rem=16px */
+
+@media (min-width: 640px) and (max-width: 1599px) {
   html {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 @media (min-width: 375px) and (max-width: 639px) {
   html {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
-

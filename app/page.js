@@ -1,7 +1,7 @@
 /*
  * @Author: Miss.Hyx
  * @Date: 2024-02-22 20:34:40
- * @LastEditTime: 2024-02-26 19:15:18
+ * @LastEditTime: 2024-02-26 20:09:50
  * @Description:
  */
 'use client'
@@ -147,7 +147,7 @@ export default function home() {
           <Image
             src={bg_sub3}
             alt="clock"
-            className="inline-block w-[25.75rem] h-[17rem]"
+            className="inline-block w-[25.75rem] h-[17.25rem]"
           />
           <div className="bg-no-repeat bg-contain bg-[url('../public/images/Vector139.png')] h-[17.375rem] w-[26rem] pt-[2.25rem] pl-[1.625rem] pr-[2.875rem] transition ease-in-out delay-150 hover:-translate-y-[0.375rem] hover:translate-x-[0.375rem] duration-300 absolute top-[-0.125rem] left-[-0.125rem]">
             <div className="w-[2.875rem] h-[0.25rem] bg-gradient-to-b from-[#D9E313] to-[#3CBC34] rounded-[0.6875rem]"></div>
